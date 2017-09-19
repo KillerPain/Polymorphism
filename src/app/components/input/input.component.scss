@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex: 1 0 auto;
+    input {
+        width: 100%;
+        text-align: right;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 30px;
+        height: 40px;
+    }
+}

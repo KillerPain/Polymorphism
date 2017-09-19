@@ -1,3 +1,13 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+    <pe-input></pe-input>
+    <div class="keys">
+        <div class="signs">
+            <pe-button *ngFor="let n of b" [value]="n"></pe-button>
+        </div>
+        <div class="numbers">
+            <pe-button *ngFor="let n of a" [value]="n"></pe-button>
+            <pe-button [value]="'='"></pe-button>
+            <pe-button [value]="'C'"></pe-button>
+        </div>
+    </div>
+</div>
